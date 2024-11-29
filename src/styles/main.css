@@ -119,3 +119,10 @@ input:checked::before {
 .piano-keys .key.hide span {
     display: none;
 }
+
+@media (max-width: 800px) {
+    .container {
+        transform: rotate(90deg); /* Gira o teclado 90 graus */
+        transform-origin: center; /* Define o ponto de rotação no centro */
+    }
+}
